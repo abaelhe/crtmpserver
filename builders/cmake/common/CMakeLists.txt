@@ -10,6 +10,7 @@ INCLUDE_DIRECTORIES(
 	${OPENSSL_INCLUDE_PATH}
 	${LUA_INCLUDE_PATH}
 	${CRTMPSERVER_SOURCES_ROOT}/common/include
+        /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
 )
 
 #create the library

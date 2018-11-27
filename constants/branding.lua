@@ -1,4 +1,4 @@
-BRANDING_COMPANY_NAME="C++ RTMP"
-BRANDING_WEB="www.rtmpd.com"
-BRANDING_EMAIL="contact@rtmpd.com"
+BRANDING_COMPANY_NAME="Abael.com"
+BRANDING_WEB="www.abael.com"
+BRANDING_EMAIL="abaelhe@icloud.com"
 

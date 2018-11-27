@@ -21,6 +21,9 @@
 #ifdef HAS_MEDIA_MP4
 #include "mediaformats/readers/mp4/boxatom.h"
 #include "mediaformats/readers/mp4/mp4document.h"
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wvarargs"
+
 
 BoxAtom::BoxAtom(MP4Document *pDocument, uint32_t type, uint64_t size, uint64_t start)
 : BaseAtom(pDocument, type, size, start) {
@@ -40,7 +43,7 @@ bool BoxAtom::Read() {
 		}
 		if (!pAtom->IsIgnored()) {
 			if (!AtomCreated(pAtom)) {
-				FATAL("Unable to signal AtomCreated for atom %s (%"PRIx64")",
+				FATAL("Unable to signal AtomCreated for atom %s (%" PRIx64")",
 						STR(GetTypeString()), _start);
 				return false;
 			}

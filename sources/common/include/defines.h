@@ -20,18 +20,18 @@
 #define AM_PAYLOADTYPE_LEN 11
 #define AM_SERVERID "serverId"
 #define AM_SERVERID_LEN 8
-#define BRANDING_BANNER "C++ RTMP Media Server (www.rtmpd.com)"
-#define BRANDING_BANNER_LEN 37
-#define BRANDING_COMPANY_NAME "C++ RTMP"
-#define BRANDING_COMPANY_NAME_LEN 8
-#define BRANDING_EMAIL "contact@rtmpd.com"
-#define BRANDING_EMAIL_LEN 17
-#define BRANDING_PRODUCT_NAME "C++ RTMP Media Server"
-#define BRANDING_PRODUCT_NAME_LEN 21
-#define BRANDING_WEB "www.rtmpd.com"
+#define BRANDING_BANNER "Streaming Server"
+#define BRANDING_BANNER_LEN 16
+#define BRANDING_COMPANY_NAME "Abael.com"
+#define BRANDING_COMPANY_NAME_LEN 9
+#define BRANDING_EMAIL "abaelhe@icloud.com"
+#define BRANDING_EMAIL_LEN 18
+#define BRANDING_PRODUCT_NAME "Abael.com Streaming Server"
+#define BRANDING_PRODUCT_NAME_LEN 26
+#define BRANDING_WEB "www.abael.com"
 #define BRANDING_WEB_LEN 13
-#define BRANDING_WEB_HTTP "http://www.rtmpd.com"
-#define BRANDING_WEB_HTTP_LEN 20
+#define BRANDING_WEB_HTTP "http://www.abael.com"
+#define BRANDING_WEB_HTTP_LEN 19
 #define CM "controlMessage"
 #define CM_LEN 14
 #define CM_OP "operation"
@@ -382,8 +382,8 @@
 #define HTTP_HEADERS_HOST_LEN 4
 #define HTTP_HEADERS_SERVER "Server"
 #define HTTP_HEADERS_SERVER_LEN 6
-#define HTTP_HEADERS_SERVER_US "C++ RTMP Media Server (www.rtmpd.com)"
-#define HTTP_HEADERS_SERVER_US_LEN 37
+#define HTTP_HEADERS_SERVER_US "http.abael.com"
+#define HTTP_HEADERS_SERVER_US_LEN 9
 #define HTTP_HEADERS_TRANSFER_ENCODING "Transfer-Encoding"
 #define HTTP_HEADERS_TRANSFER_ENCODING_LEN 17
 #define HTTP_HEADERS_TRANSFER_ENCODING_CHUNKED "chunked"
@@ -394,8 +394,8 @@
 #define HTTP_HEADERS_WWWAUTHENTICATE_LEN 16
 #define HTTP_HEADERS_X_POWERED_BY "X-Powered-By"
 #define HTTP_HEADERS_X_POWERED_BY_LEN 12
-#define HTTP_HEADERS_X_POWERED_BY_US "C++ RTMP Media Server (www.rtmpd.com)"
-#define HTTP_HEADERS_X_POWERED_BY_US_LEN 37
+#define HTTP_HEADERS_X_POWERED_BY_US "www.abael.com"
+#define HTTP_HEADERS_X_POWERED_BY_US_LEN 13
 #define HTTP_METHOD "method"
 #define HTTP_METHOD_LEN 6
 #define HTTP_METHOD_GET "GET"
@@ -732,16 +732,16 @@
 #define RTSP_HEADERS_RTP_INFO_LEN 8
 #define RTSP_HEADERS_SERVER "Server"
 #define RTSP_HEADERS_SERVER_LEN 6
-#define RTSP_HEADERS_SERVER_US "C++ RTMP Media Server (www.rtmpd.com)"
-#define RTSP_HEADERS_SERVER_US_LEN 37
+#define RTSP_HEADERS_SERVER_US "rtsp.abael.com"
+#define RTSP_HEADERS_SERVER_US_LEN 14
 #define RTSP_HEADERS_SESSION "Session"
 #define RTSP_HEADERS_SESSION_LEN 7
 #define RTSP_HEADERS_TRANSPORT "Transport"
 #define RTSP_HEADERS_TRANSPORT_LEN 9
 #define RTSP_HEADERS_X_POWERED_BY "X-Powered-By"
 #define RTSP_HEADERS_X_POWERED_BY_LEN 12
-#define RTSP_HEADERS_X_POWERED_BY_US "C++ RTMP Media Server (www.rtmpd.com)"
-#define RTSP_HEADERS_X_POWERED_BY_US_LEN 37
+#define RTSP_HEADERS_X_POWERED_BY_US "Abael.com"
+#define RTSP_HEADERS_X_POWERED_BY_US_LEN 9
 #define RTSP_METHOD "method"
 #define RTSP_METHOD_LEN 6
 #define RTSP_METHOD_ANNOUNCE "ANNOUNCE"

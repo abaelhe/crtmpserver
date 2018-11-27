@@ -1,0 +1,3 @@
+/usr/local/sbin/crtmpserver
+/usr/local/etc/crtmpserver.lua.sample
+/usr/local/man/man1/crtmpserver.1

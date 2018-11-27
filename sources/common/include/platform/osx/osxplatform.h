@@ -21,6 +21,11 @@
 #ifndef _OSXPLATFORM_H
 #define _OSXPLATFORM_H
 
+#include <unistd.h>
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wnullability-completeness"
+
+
 #include "platform/baseplatform.h"
 
 #ifndef PRIz

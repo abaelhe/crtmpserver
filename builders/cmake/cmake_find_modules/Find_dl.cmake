@@ -8,6 +8,7 @@ FIND_PATH(DL_INCLUDE_PATH
 		/usr/local/include
 		/sw/include
 		/opt/local/include
+                /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
 		NO_DEFAULT_PATH)
 
 SET(CMAKE_FIND_LIBRARY_SUFFIXES .so.2 ${CMAKE_FIND_LIBRARY_SUFFIXES})
@@ -31,6 +32,7 @@ FIND_LIBRARY(DL_LIBRARY_PATH
 		/usr/lib/i386-linux-gnu
 		/opt/local/lib
 		/sw/lib
+                /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib
 		NO_DEFAULT_PATH)
 
 MESSAGE(STATUS "DL_INCLUDE_PATH: ${DL_INCLUDE_PATH}")
